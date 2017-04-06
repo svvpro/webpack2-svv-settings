@@ -1,0 +1,59 @@
+body{
+    //background: #fefefe;
+    margin: 0;
+    padding: 0;
+    font:1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+    color: #272727;
+    background:  #ffad16 url("./../images/logo_title.png") center center no-repeat;
+}
+img{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
+}
+.main{
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+}
+.bl{
+    padding: 5px 10px;
+    border:1px solid #ddd;
+    background: #fffde1;
+    border-radius: 3px;
+    margin: 20px;
+}
+.main{
+    display: flex;
+    //flex-direction: column;
+    justify-content: center;
+    //align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 20px auto;
+    height: 600px;
+}
+.bl{
+    width: 400px;
+}
+.svv-best-class{
+    padding: 15px;
+    border: 1px solid black;
+    background: #003799;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    color: #ffad16;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.svv-best-class1{
+    padding: 15px;
+    border: 1px solid black;
+    background: #7d3e14;
+    border-radius: 10px;
+}
